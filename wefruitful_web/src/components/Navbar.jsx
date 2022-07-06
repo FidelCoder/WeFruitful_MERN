@@ -31,11 +31,9 @@ const Navbar = () => {
         </li>
 
       </ul>
-      <a class="navbar-brand" href="griffins.com">Connect To Wallet</a>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <a class="navbar-brand fw-bolder fs-4 mx-auto" href="griffins.com">Connect To Wallet</a>
+      <button className="btn btn-outline-primary ms-auto px-4 rounded-pill"><i className="fa fa-sign-in me-3"/>Login</button>
+      <button className="btn btn-outline-primary ms-auto px-4 rounded-pill"><i className="fa fa-user-plus me-3"/>Register</button>
     </div>
   </div>
 </nav>

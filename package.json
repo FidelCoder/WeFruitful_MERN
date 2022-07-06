@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/Griffins-sys254/WeFruitful_MERN/issues"
   },
-  "homepage": "https://github.com/Griffins-sys254/WeFruitful_MERN#readme"
+  "homepage": "https://github.com/Griffins-sys254/WeFruitful_MERN#readme",
+  "dependencies": {
+    "autoprefixer": "10.4.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
