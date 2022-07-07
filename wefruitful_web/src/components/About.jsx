@@ -6,7 +6,7 @@ const About = () => {
             <section id="about">
                 <div className="container my-5 py-5">
                     <div className="row">
-                        <img src="assets/logo.jpeg" alt="" className='w-75 mt-5'/>
+                        <img src="assets/logo.jpeg" alt="" className='w-60 mt-5'/>
                     </div>
                     <div className="col-md-6">
                         <h3 className="fs-5 mb-0">About Us</h3>
