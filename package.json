@@ -19,6 +19,9 @@
   "homepage": "https://github.com/Griffins-sys254/WeFruitful_MERN#readme",
   "dependencies": {
     "autoprefixer": "10.4.5",
+    "cookie-parser": "^1.4.6",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
