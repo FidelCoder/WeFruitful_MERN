@@ -2,53 +2,53 @@
 
 const Footer = () => {
     return(
-        <section className="footer">
-            <div class="container my-5">
+        <section classNameName="footer">
+            <div className="container my-5">
 
-  <footer class="text-center text-white" style="background-color: #3f51b5">
+  <footer className="text-center text-white" style="background-color: #3f51b5">
 
-    <div class="container">
+    <div className="container">
 
-      <section class="mt-5">
+      <section className="mt-5">
 
-        <div class="row text-center d-flex justify-content-center pt-5">
+        <div className="row text-center d-flex justify-content-center pt-5">
 
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="https://www.instagram.com/_thee_oduol_/" class="text-white">About us</a>
+          <div className="col-md-2">
+            <h6 className="text-uppercase font-weight-bold">
+              <a to="https://www.instagram.com/_thee_oduol_/" className="text-white">About us</a>
             </h6>
           </div>
 
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="https://www.instagram.com/_thee_oduol_/" class="text-white">Products</a>
+          <div className="col-md-2">
+            <h6 className="text-uppercase font-weight-bold">
+              <a to="https://www.instagram.com/_thee_oduol_/" className="text-white">Products</a>
             </h6>
           </div>
 
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="https://www.instagram.com/_thee_oduol_/" class="text-white">Awards</a>
+          <div className="col-md-2">
+            <h6 className="text-uppercase font-weight-bold">
+              <a to="https://www.instagram.com/_thee_oduol_/" className="text-white">Awards</a>
             </h6>
           </div>
 
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="https://www.instagram.com/_thee_oduol_/" class="text-white">Help</a>
+          <div className="col-md-2">
+            <h6 className="text-uppercase font-weight-bold">
+              <a to="https://www.instagram.com/_thee_oduol_/" className="text-white">Help</a>
             </h6>
           </div>
-          <div class="col-md-2">
-            <h6 class="text-uppercase font-weight-bold">
-              <a href="gr.com" class="text-white">Contact</a>
+          <div className="col-md-2">
+            <h6 className="text-uppercase font-weight-bold">
+              <a to="gr.com" className="text-white">Contact</a>
             </h6>
           </div>
         </div>
       </section>
 
-      <hr class="my-5" />
+      <hr className="my-5" />
 
-      <section class="mb-5">
-        <div class="row d-flex justify-content-center">
-          <div class="col-lg-8">
+      <section className="mb-5">
+        <div className="row d-flex justify-content-center">
+          <div className="col-lg-8">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
               distinctio earum repellat quaerat voluptatibus placeat nam,
@@ -59,35 +59,35 @@ const Footer = () => {
         </div>
       </section>
 
-      <section class="text-center mb-5">
-        <a href="https://www.instagram.com/_thee_oduol_/" class="text-white me-4">
-          <i class="fab fa-facebook-f"></i>
+      <section className="text-center mb-5">
+        <a to="https://www.instagram.com/_thee_oduol_/" className="text-white me-4">
+          <i className="fab fa-facebook-f"></i>
         </a>
-        <a href="https://www.instagram.com/_thee_oduol_/" class="text-white me-4">
-          <i class="fab fa-twitter"></i>
+        <a to="https://www.instagram.com/_thee_oduol_/" className="text-white me-4">
+          <i className="fab fa-twitter"></i>
         </a>
-        <a href="https://www.instagram.com/_thee_oduol_/" class="text-white me-4">
-          <i class="fab fa-google"></i>
+        <a to="https://www.instagram.com/_thee_oduol_/" className="text-white me-4">
+          <i className="fab fa-google"></i>
         </a>
-        <a href="https://www.instagram.com/_thee_oduol_/" class="text-white me-4">
-          <i class="fab fa-instagram"></i>
+        <a to="https://www.instagram.com/_thee_oduol_/" className="text-white me-4">
+          <i className="fab fa-instagram"></i>
         </a>
-        <a href="https://www.instagram.com/_thee_oduol_/" class="text-white me-4">
-          <i class="fab fa-linkedin"></i>
+        <a to="https://www.instagram.com/_thee_oduol_/" className="text-white me-4">
+          <i className="fab fa-linkedin"></i>
         </a>
-        <a href="https://www.instagram.com/_thee_oduol_/" class="text-white me-4">
-          <i class="fab fa-github"></i>
+        <a to="https://www.instagram.com/_thee_oduol_/" className="text-white me-4">
+          <i className="fab fa-github"></i>
         </a>
       </section>
 
     </div>
 
     <div
-         class="text-center p-3"
+         className="text-center p-3"
          style="background-color: rgba(0, 0, 0, 0.2)"
          >
       © 2020 Copyright:
-      <a class="text-white" href="https://www.instagram.com/_thee_oduol_/"
+      <a className="text-white" to="https://www.instagram.com/_thee_oduol_/"
          >MDBootstrap.com</a
         >
     </div>
