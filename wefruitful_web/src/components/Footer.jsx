@@ -50,10 +50,8 @@ const Footer = () => {
         <div className="row d-flex justify-content-center">
           <div className="col-lg-8">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              distinctio earum repellat quaerat voluptatibus placeat nam,
-              commodi optio pariatur est quia magnam eum harum corrupti
-              dicta, aliquam sequi voluptate quas.
+            B2B Farmer traceability and payment platform for the horticultural sector accessible by the farmer on one end and customer on the other on a realtime basis that enables transparency, integrity and secure transactions on the blockchain backdrop of CELO a stablecoin of choice.
+
             </p>
           </div>
         </div>
@@ -88,7 +86,7 @@ const Footer = () => {
          >
       © 2020 Copyright:
       <a className="text-white" to="https://www.instagram.com/_thee_oduol_/"
-         >MDBootstrap.com</a
+         >www.fruitfullabs.io</a
         >
     </div>
 
