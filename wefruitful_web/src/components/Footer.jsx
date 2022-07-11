@@ -1,11 +1,11 @@
-/*import React from 'react'
+import React from 'react'
 
 const Footer = () => {
     return(
-        <section classNameName="footer">
+        <section className="footer">
             <div className="container my-5">
 
-  <footer className="text-center text-white" style="background-color: #3f51b5">
+  <footer className="text-center text-white" style={{backgroundColor: '#3f51b5'}}>
 
     <div className="container">
 
@@ -84,7 +84,7 @@ const Footer = () => {
 
     <div
          className="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
+         style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}
          >
       © 2020 Copyright:
       <a className="text-white" to="https://www.instagram.com/_thee_oduol_/"
@@ -100,4 +100,3 @@ const Footer = () => {
 }
 
 export default Footer;
-*/

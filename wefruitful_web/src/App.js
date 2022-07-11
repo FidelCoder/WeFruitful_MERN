@@ -5,7 +5,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import {Route, Switch} from 'react-router';
+import {Route, Switch, BrowserRouter} from 'react-router-dom';
 import Login from './components/Login';
 import Register from './components/Register';
 import Dashboard from './components/Dashboard';
@@ -49,7 +49,9 @@ function App() {
   }, []);
 
   return (
-    <>
+    
+    <BrowserRouter>
+    
       <Navbar auth={auth1}/>
       <Switch>
         <Route exact path="/" component={Home} />
@@ -62,7 +64,7 @@ function App() {
         <Protectedroute exact path="/logout" component={Logout} auth={auth}/>
       </Switch>
       <Footer/>
-    </>
+    </BrowserRouter>
   );
 }
 
