@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useHistory } from 'react-router';
+import { useHistory } from 'react-router-dom';
 
 const Logout = () => {
 
@@ -33,7 +33,7 @@ const Logout = () => {
 
     return (
         <div>
-            
+            <h2>Dogo Dogo </h2>
         </div>
     );
 }
